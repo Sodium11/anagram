@@ -13,7 +13,7 @@ def anagram(data):
 					n1.append(n)
 				result.append(n1)
 		return result
-str="quizknock"
+str="Hello"
 ans=anagram(list(str))
 file =open("anagram.txt","w")
 for i in ans:
